@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Segoe UI;
+}
+.privacy-head {
+  height: 200px;
+  border: 2px solid green;
+  background: rgba(9, 140, 148, 0.17);
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.privacy-text {
+  text-align: center;
+  font-size: 32px;
+  line-height: 4;
+  letter-spacing: -0.8px;
+  color: #000000;
+  opacity: 1;
+}
+.privacy-heading {
+  text-align: center;
+}
+.category-main-container {
+  position: absolute;
+  bottom: 15px;
+  width: 25%;
+}
+.category {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.category-text {
+  font-size: 20px;
+  color: grey;
+}
+.active {
+  border-bottom: 3px solid red;
+  padding-bottom: 14px;
+  color: black;
+  font-weight: 400;
+}
+.second {
+  line-height: 1.5;
+  border-bottom: 2px solid grey;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  color: black;
+  margin: 50px 110px 50px 110px;
+  text-align: justify;
+}
+.third {
+  margin: 50px 90px 50px 90px;
+}
+.boxes {
+  width: 230px;
+  padding: 15px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  background: rgba(212, 215, 217, 0.27);
+}
+
+.left-container {
+  width: 20%;
+}
+.third {
+  display: flex;
+  margin: 50px 110px 50px 110px;
+}
+.right-container {
+  width: 100%;
+  margin-left: 15px;
+  line-height: 1.5;
+  box-shadow: 2px 2px #dddddd;
+}
+.description {
+  border: 1px solid rgba(9, 140, 148, 0.57);
+  padding: 15px;
+  background: rgba(212, 215, 217, 0.27);
+  text-align: justify;
+}
+.up-arrow {
+  display: inline-block;
+  position: relative;
+  border: 1px solid #078f87;
+  text-decoration: none;
+  border-radius: 2px;
+}
+.up-arrow:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 100%;
+  bottom: 100%;
+  top: 35%;
+  width: 0;
+  height: 0;
+  outline: cadetblue;
+  border-top: 10px solid transparent;
+  border-left: 14px solid cadetblue;
+  border-bottom: 10px solid transparent;
+
+  /*content: " ";
+  display: block;
+  position: absolute;
+  left: 140px;
+  bottom: 100%;
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 100px solid red;
+  border-bottom: 50px solid transparent;*/
+}
